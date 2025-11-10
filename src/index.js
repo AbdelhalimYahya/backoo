@@ -29,7 +29,7 @@ const __dirname = path.resolve();
 // app.use(express.urlencoded({ limit: '50mb', extended: true }))
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "*",
     credentials: true,
 }));
 
